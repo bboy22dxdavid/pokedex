@@ -1,0 +1,37 @@
+/*importando as fontes do goole*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+/*zerando as margens e paddings*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+
+/*padronizando o corpo da pagina*/
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #6ab7f5, #ffff);
+    min-height: 100vh;
+}
+
+
+/*padronizando o conteudo da class main, para um bloco*/
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+}
+
+
+/*configurando responsibilidade da pag*/
+
+.pokedex {
+    width: 100%;
+}
